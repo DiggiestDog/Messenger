@@ -22,15 +22,6 @@ ul {
   margin: 0;
   padding: 0;
 }
-    Box CSS:
-
-.box {
-    width: 200px;
-    height: 275px;
-    margin: 20px;
-    border-width: 10px;
-
-}
 body{
     font-family: 'Anton' sans-serif;
     font-size: 13px;
@@ -69,14 +60,6 @@ content {
     background: #171717;
     width: 850px;
 }
-    
-filler {
-    background: #171717;
-    max-height: 1600px;
-    min-height: 0px;
-    min-width: 0px;
-    max-width: 2000px;
-    background-attachment: local
         
     }
 Rcol {
@@ -106,7 +89,7 @@ footer {
     clear: both;
 }
 form_contact {
-    height: 280px;
+    height: 80px;
     width: 2000px;
     background: #4D0000;
     clear: both;
