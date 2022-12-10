@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+        <link rel="stylesheet" href="Styles.css">
+    </head>
+    
+<header>
+    <div id="header" name="header" class="border">
+        <h1> Messenger Film Company </h1>
+    </div>
+    </header>
+    
+<nav>
+<center>
+    <ul>
+        <li>
+            <button id="index" name="index" class="navbutton"  onclick="window.location.href='./Index.html'" onmouseover="highlightBackground('index')" onmouseleave="originalBackground('index')">Home</button>&nbsp;&nbsp;
+            <button id="news" name="news" class="navbutton"  onclick="window.location.href='./Old_Fashioned_grudge_Showcase.html'" onmouseover="highlightBackground('news')" onmouseleave="originalBackground('news')">Upcoming</button>&nbsp;&nbsp;
+            <button id="contact" name="contact" class="navbutton"  onclick="window.location.href='./Contact_Form.html'" onmouseover="highlightBackground('contact')" onmouseleave="originalBackground('contact')">Contact</button></li>
+  <!---<li><a href="Index.html">Home   .</a><a href="news.asp">News   .</a><a href="Contact_Form.html">Contact   .</a><a href="about.asp">About   .</a></li>--->
+</ul>
+</center>
+</nav>
+
+        <div id="body" name=body style="width:100%;margin: 0 auto;display:flex;flex-direction:row">
+    <div id="lcol" name="lcol" style="background-color:#CCCCCC;min-height: 1600px;width:150px;height:100%">
+        <!---<img src= https://cdn.discordapp.com/attachments/999706665106559016/1036490043960868934/TimC-module4-project1.jpg ; width="150"; height="150"; >--->
+        <img src= https://cdn.discordapp.com/attachments/999706665106559016/1036490043960868934/TimC-module4-project1.jpg  style="width:150px; height=150px;" >
+    </div>
+    
+    
+<body>
+    <center>
+    <content>
+        <np>              ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</np>
+        <h2>Here are some of our films!</h2> <br>
+         <h1> An Old Fashioned Grudge</h1> <br>
+        <p><a href="Old_Fashioned_grudge_Showcase.html"><img src= https://cdn.discordapp.com/attachments/999706665106559016/1048372491472621618/Noir_poster_WEB.jpg ; width="200"; height="300"; ></a></p><br>
+        
+         <h1> Jr's Game</h1> <br>
+        <p><a href="Jr_Game_Showcase.html"><img src= https://cdn.discordapp.com/attachments/999706665106559016/1049910607274577990/jr_game.jpg ; width="300"; height="200"; ></a></p><br>
+        
+         <h1>The Runner</h1> <br>
+        <p><a href="Runner_Showcase.html"><img src= https://cdn.discordapp.com/attachments/999706665106559016/1049911369060864010/runner.jpg ; width="300"; height="200"; ></a></p><br>
+    </content>
+<footer>
+    <h2>Would you like to know <button id="Footer" name="Footer" class="navbutton"  onclick="window.location.href='./Contact_Form.html'" onmouseover="highlightBackground('Footer')" onmouseleave="originalBackground('Footer')">more?</button></h2>
+</footer>
+    </center>
+<div id="Rcol" name="Rcol" style="background-color:#CCCCCC;min-height: 1600px;width:150px;height:100%">
+    </div>
+
+</body>
+    <script>
+        
+        function highlightBackground(button) {
+            currentButton = document.getElementById(button);
+            currentButton.style.backgroundColor = "#CCCCCC";
+        }
+        
+        function originalBackground(button) {
+            currentButton = document.getElementById(button);
+            currentButton.style.backgroundColor = "#6E0000";
+        }
+    </script>
+</html>
